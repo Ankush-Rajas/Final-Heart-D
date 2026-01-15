@@ -1,0 +1,121 @@
+{
+  "age": [
+  { "min": 1,  "max": 19, "score": 0 },
+  { "min": 20, "max": 24, "score": 1 },
+  { "min": 25, "max": 29, "score": 2 },
+  { "min": 30, "max": 34, "score": 3 },
+  { "min": 35, "max": 39, "score": 4 },
+  { "min": 40, "max": 44, "score": 5 },
+  { "min": 45, "max": 49, "score": 6 },
+  { "min": 50, "max": 54, "score": 7 },
+  { "min": 55, "max": 59, "score": 8 },
+  { "min": 60, "max": 64, "score": 9 },
+  { "min": 65, "max": 69, "score": 10 },
+  { "min": 70, "max": 120,"score": 11 }
+],
+
+  "gender": {
+    "female": { "score": 0 },
+    "male": { "score": 1 }
+  },
+
+  "cp": {
+    "0": { "score": 9, "disease": ["Typical Angina"] },
+    "1": { "score": 6, "disease": ["Atypical Angina"] },
+    "2": { "score": 3, "disease": ["Non-anginal pain"] },
+    "3": { "score": 10, "disease": ["Asymptomatic"] }
+  },
+
+  "trestbps": [
+  { "min": 0,   "max": 104, "score": 0,  "disease": ["Normal Blood Pressure"] },
+  { "min": 105, "max": 107, "score": 1,  "disease": ["Low-Normal BP"] },
+  { "min": 108, "max": 110, "score": 2,  "disease": ["Optimal BP"] },
+  { "min": 111, "max": 113, "score": 3,  "disease": ["Normal BP"] },
+  { "min": 114, "max": 116, "score": 4,  "disease": ["High-Normal BP"] },
+  { "min": 117, "max": 119, "score": 5,  "disease": ["Pre-Hypertension (Early)"] },
+  { "min": 120, "max": 122, "score": 6,  "disease": ["Pre-Hypertension"] },
+  { "min": 123, "max": 125, "score": 7,  "disease": ["Elevated Blood Pressure"] },
+  { "min": 126, "max": 128, "score": 8,  "disease": ["Borderline Hypertension"] },
+  { "min": 129, "max": 131, "score": 9,  "disease": ["Stage-1 Hypertension"] },
+  { "min": 132, "max": 134, "score": 10, "disease": ["Stage-1 Hypertension"] },
+  { "min": 135, "max": 137, "score": 11, "disease": ["Moderate Hypertension"] },
+  { "min": 138, "max": 140, "score": 12, "disease": ["Stage-2 Hypertension"] },
+  { "min": 141, "max": 143, "score": 13, "disease": ["Stage-2 Hypertension"] },
+  { "min": 144, "max": 146, "score": 14, "disease": ["Severe Hypertension"] },
+  { "min": 147, "max": 149, "score": 15, "disease": ["Severe Hypertension"] },
+  { "min": 150, "max": 300, "score": 16, "disease": ["Hypertensive Crisis"] }
+],
+
+  "chol": [
+  { "min": 0,   "max": 149, "score": 0,  "disease": ["Low Cholesterol"] },
+  { "min": 150, "max": 154, "score": 1,  "disease": ["Optimal Cholesterol"] },
+  { "min": 155, "max": 159, "score": 2,  "disease": ["Optimal Cholesterol"] },
+  { "min": 160, "max": 164, "score": 3,  "disease": ["Normal Cholesterol"] },
+  { "min": 165, "max": 169, "score": 4,  "disease": ["Normal Cholesterol"] },
+  { "min": 170, "max": 174, "score": 5,  "disease": ["Borderline Cholesterol"] },
+  { "min": 175, "max": 179, "score": 6,  "disease": ["Borderline Cholesterol"] },
+  { "min": 180, "max": 184, "score": 7,  "disease": ["Borderline High Cholesterol"] },
+  { "min": 185, "max": 189, "score": 8,  "disease": ["Borderline High Cholesterol"] },
+  { "min": 190, "max": 194, "score": 9,  "disease": ["High Cholesterol (Early)"] },
+  { "min": 195, "max": 199, "score": 10, "disease": ["High Cholesterol"] },
+  { "min": 200, "max": 204, "score": 11, "disease": ["Hypercholesterolemia (Stage-1)"] },
+  { "min": 205, "max": 209, "score": 12, "disease": ["Hypercholesterolemia"] },
+  { "min": 210, "max": 214, "score": 13, "disease": ["Moderate Hypercholesterolemia"] },
+  { "min": 215, "max": 219, "score": 14, "disease": ["Moderate Hypercholesterolemia"] },
+  { "min": 220, "max": 224, "score": 15, "disease": ["Severe Hypercholesterolemia"] },
+  { "min": 225, "max": 229, "score": 16, "disease": ["Severe Hypercholesterolemia"] },
+  { "min": 230, "max": 234, "score": 17, "disease": ["Very High Cholesterol"] },
+  { "min": 235, "max": 239, "score": 18, "disease": ["Very High Cholesterol"] },
+  { "min": 240, "max": 500, "score": 20, "disease": ["Critical Hypercholesterolemia"] }
+],
+
+  "thalach": [
+  { "min": 0,   "max": 100, "score": 3, "disease": ["Poor Cardiac Response"] },
+  { "min": 101, "max": 120, "score": 2, "disease": ["Reduced Exercise Capacity"] },
+  { "min": 121, "max": 140, "score": 1, "disease": ["Mildly Reduced Cardiac Reserve"] },
+  { "min": 141, "max": 220, "score": 0, "disease": ["Normal Cardiac Response"] }
+]
+,
+
+  "exang": {
+  "0": { "score": 0, "disease": ["No Exercise Induced Angina"] },
+  "1": { "score": 8, "disease": ["Exercise Induced Ischemia"] }
+},
+
+  "oldpeak": [
+  { "min": 0.0, "max": 0.1, "score": 0, "disease": ["Normal ST Segment"] },
+  { "min": 0.2, "max": 0.3, "score": 1, "disease": ["Minimal ST Depression"] },
+  { "min": 0.4, "max": 0.5, "score": 2, "disease": ["Mild ST Depression"] },
+  { "min": 0.6, "max": 0.7, "score": 3, "disease": ["Early Ischemic Change"] },
+  { "min": 0.8, "max": 0.9, "score": 4, "disease": ["Mild Ischemia"] },
+  { "min": 1.0, "max": 1.1, "score": 5, "disease": ["Moderate Ischemia"] },
+  { "min": 1.2, "max": 1.3, "score": 6, "disease": ["Moderate Ischemia"] },
+  { "min": 1.4, "max": 1.5, "score": 7, "disease": ["Significant Ischemia"] },
+  { "min": 1.6, "max": 1.7, "score": 8, "disease": ["Severe Ischemia"] },
+  { "min": 1.8, "max": 1.9, "score": 9, "disease": ["Severe Ischemia"] },
+  { "min": 2.0, "max": 10.0,"score": 12,"disease": ["Critical Myocardial Ischemia"] }
+],
+
+  "ca": {
+  "0": { "score": 0,  "disease": ["No Coronary Blockage"] },
+  "1": { "score": 5,  "disease": ["Single Vessel Disease"] },
+  "2": { "score": 9,  "disease": ["Double Vessel Disease"] },
+  "3": { "score": 13, "disease": ["Triple Vessel Disease"] },
+  "4": { "score": 17, "disease": ["Critical Coronary Blockage"] }
+},
+
+  "thal": {
+  "1": { "score": 0,  "disease": ["Normal Myocardial Perfusion"] },
+  "2": { "score": 7,  "disease": ["Previous Myocardial Damage"] },
+  "3": { "score": 10, "disease": ["Active Ischemia"] }
+},
+
+  "risk_levels": [
+    { "min": 0,  "max": 20, "label": "NO DISEASE" },
+    { "min": 21, "max": 35, "label": "EARLY RISK" },
+    { "min": 36, "max": 50, "label": "MILD CAD" },
+    { "min": 51, "max": 65, "label": "MODERATE CAD" },
+    { "min": 66, "max": 80, "label": "SEVERE CAD" },
+    { "min": 81, "max": 100,"label": "CRITICAL / MI RISK" }
+  ]
+}
